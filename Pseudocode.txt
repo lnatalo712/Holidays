@@ -1,0 +1,108 @@
+holidayList = []
+dateList = []
+holidays = []
+saved = True
+leave = False
+
+def class Holidays:
+    name
+    date
+
+    def __str__:
+        return name and date
+    
+def weatherForecast():
+    use this function to call the API and return the forecast for the week
+
+def add Holiday():
+    name = input()
+    date = input()
+
+    if date isn't formatted correctly:
+        addHoliday
+    else
+        newHoliday = Holiday(name, date)
+        holidays.append(newHoliday)
+        sort holidays by date
+        saved = False
+
+def removeHoliday():
+    found = False
+    name = input()
+
+    for loop to check holidays for name:
+        if theres a match:
+            delete entry
+            found = True
+
+    if found == False:
+        saved = True
+    else:
+        saved = False
+
+def saveHolidays():
+    decision = input()
+
+    if decision == yes:
+        write holidays to json file
+        saved = True
+
+def viewHolidays():
+    dayRange = []
+
+    yr = input()
+    wk = input()
+
+    if wk == "":
+        wk = this week
+        decision = input()
+
+        if decision == yes:
+            weatherForecast()
+
+    for loop to add the 7 days of the week to dayRange:
+        dayRange.append()
+
+    results = filter(lambda)
+
+    start = first day of week
+    end = first day of next week
+
+    for date in (start, end):
+        print holiday
+
+data = load holidays.json
+
+for loop to add data to holidays:
+    holidays.append(Holiday(data["name"], data["date"]))
+
+scrape website and add holidays from 2020 to 2024 to holidays
+
+sort holidays by date
+
+while leave == False:
+    decision = input()
+
+    if decision isn't 1 to 5:
+        continue
+    elif decision == 1:
+        addHoliday()
+    elif decision == 2:
+        removeHoliday()
+    elif decision == 3:
+        saveHolidays()
+    elif decision == 4:
+        viewHolidays()
+    elif decision == 5:
+        if saved == True
+            choice = input()
+            
+            if choice == yes:
+                leave = True
+        else:
+            warn that changes aren't saved
+
+            choice = input()
+
+            if choice == yes:
+                leave = True
